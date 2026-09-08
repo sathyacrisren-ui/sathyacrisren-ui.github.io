@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Allena — Privacy</title>
+<style>
+:root{--bg:#1F1E1D;--surface:#262624;--text:#F0EEE6;--dim:#B8B4A8;--faint:#807C72;--line:#3D3C39;--green:#30D158}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{max-width:640px;margin:0 auto;padding:40px 22px 60px}
+h1{font-size:30px;font-weight:800;margin:0 0 6px}
+.date{color:var(--faint);font-size:13px}
+h2{font-size:16px;margin:30px 0 8px}
+p,li{color:var(--dim);font-size:15px;margin:8px 0}
+a{color:var(--text)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Privacy</h1>
+<p class="date">Effective 9 September 2026 · Allena</p>
+
+<p>The short version: <b style="color:var(--text)">your training data lives on your phone, and the analysis runs there too.</b> This page spells out the rest, plainly.</p>
+
+<h2>What stays on your device</h2>
+<p>Your sessions, sets, weights, reps, effort ratings, runs, rehab check-ins, body scans, bloodwork entries, health metrics read from Apple Health (sleep, heart rate, HRV, steps, nutrition and similar), and every finding the engine produces. All of it is stored locally on your iPhone. The statistics engine that finds patterns in it runs on the phone — this data is not uploaded to analyse it.</p>
+
+<h2>What leaves your device, and why</h2>
+<ul>
+<li><b style="color:var(--text)">Account & race scores (optional).</b> If you sign in to race friends, a small score card syncs to our database: your chosen first name, weekly witnessed-point totals, session counts, a points tier, and an activation flag. The database schema has no columns for training content — sets, weights, exercises, pain scores and health readings cannot be stored there by construction. Friends and group members can see your score card; nobody else can.</li>
+<li><b style="color:var(--text)">AI features (optional).</b> If you use the coach chat, the deep read, or photo reading (programs, body-scan sheets, blood results), the relevant text or image is sent to the AI provider (Anthropic) to generate the response, then used for nothing else. These features are off until you use them.</li>
+<li><b style="color:var(--text)">Nothing else.</b> No analytics SDKs, no advertising identifiers, no location, no contacts, no third-party trackers.</li>
+</ul>
+
+<h2>Apple Health</h2>
+<p>Allena reads Health data (workouts, sleep, heart metrics, nutrition, body mass) only to power your own analysis, on your device. It is never sold, shared, or used for advertising — and Apple's rules forbid that too.</p>
+
+<h2>Camera</h2>
+<p>The knee-measurement tool uses the camera to estimate joint angles live. Nothing is recorded and no images leave the phone. Photo imports (scan sheets, blood results) are read once for the numbers; only a small thumbnail is kept locally if you save it.</p>
+
+<h2>Backups and deletion</h2>
+<p>You can export a full backup of your data from Settings at any time — it is a file you own. Deleting the app deletes its local data. If you have an account, you can remove your score row and friendships from Social, or email us to have server-side data erased entirely.</p>
+
+<h2>Not medical advice</h2>
+<p>Allena tracks and measures; it never diagnoses. Reference ranges shown are the labs' own. Your physio and your doctor are the judges.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:sathyacrisren@gmail.com">sathyacrisren@gmail.com</a></p>
+</div>
+</body>
+</html>
