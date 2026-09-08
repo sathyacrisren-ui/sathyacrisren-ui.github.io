@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "BK7SZ48593.com.allena.coach",
+        "components": [
+          { "/": "/allena-app/*", "?": { "crew": "?*" } },
+          { "/": "/allena-app/*", "?": { "join": "?*" } }
+        ],
+        "paths": ["/allena-app/*"]
+      }
+    ]
+  }
+}
