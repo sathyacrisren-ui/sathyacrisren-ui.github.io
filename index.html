@@ -10,7 +10,12 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
 .wrap{max-width:640px;margin:0 auto;padding:0 22px}
-header{padding:64px 0 8px}
+header{padding:96px 0 64px}
+.hero{background:linear-gradient(180deg,rgba(31,30,29,.38) 0%,rgba(31,30,29,.72) 55%,var(--bg) 97%),radial-gradient(ellipse at 18% 92%,rgba(48,209,88,.14),transparent 55%),url(hero.webp) center 60%/cover no-repeat var(--bg);border-bottom:1px solid var(--line)}
+.hero h1,.hero .sub{text-shadow:0 1px 22px rgba(0,0,0,.55)}
+.break{margin:56px 0 0}
+.break img{width:100%;height:auto;display:block;border-radius:18px;border:1px solid var(--line)}
+.break figcaption{color:var(--faint);font-size:12.5px;margin-top:10px;text-align:center}
 .mark{font-size:15px;letter-spacing:.14em;color:var(--faint);text-transform:uppercase;font-weight:600}
 h1{font-size:clamp(30px,6vw,44px);font-weight:800;line-height:1.12;margin:14px 0 0;letter-spacing:-.01em;text-wrap:balance}
 h1 em{font-style:normal;color:var(--green)}
@@ -68,14 +73,16 @@ a:focus-visible,.cta:focus-visible{outline:2px solid var(--green);outline-offset
 </style>
 </head>
 <body>
-<div class="wrap">
-<header>
+<div class="hero">
+<header class="wrap">
   <div class="mark">Allena</div>
   <h1>Track your knee’s <em>comeback</em> — and race your mates on showing up, not strength.</h1>
   <p class="sub">One coach for your lifting, your running and your rehab, planned against one recovery budget. It finds what actually moves your numbers and tells you in plain sentences — not charts.</p>
   <a class="cta" href="mailto:sathya@allenaapp.com?subject=Allena%20beta%20invite">Request a beta invite</a>
   <p class="note">iPhone + Apple Watch · App Store September 2026 · beta by invitation</p>
 </header>
+</div>
+<div class="wrap">
 
 <section>
   <h2>The app, frame by frame</h2>
@@ -225,6 +232,11 @@ a:focus-visible,.cta:focus-visible{outline:2px solid var(--green);outline-offset
   <div class="card"><b>On your wrist.</b><p>Start, finish and log sets from your Apple Watch — reps, weight and effort prefilled, the rest timer already counting from the moment you rack the bar. The countdown follows you to the lock screen.</p></div>
   <div class="card"><b>A race money can’t win.</b><p>The weekly duel scores witnessed showing-up only — a friend in knee rehab can beat a bodybuilder by being consistent. One link races a whole group.</p></div>
 </section>
+
+<figure class="break">
+  <img src="track.webp" alt="An empty running track at night, one bend caught in soft light." loading="lazy" width="1600" height="900">
+  <figcaption>Built during an ACL recovery, for everyone still showing up.</figcaption>
+</figure>
 
 <section>
   <h2>What it refuses to do</h2>
