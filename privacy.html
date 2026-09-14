@@ -18,7 +18,7 @@ a{color:var(--text)}
 <body>
 <div class="wrap">
 <h1>Privacy</h1>
-<p class="date">Effective 9 September 2026 · Allena</p>
+<p class="date">Effective 14 September 2026 · Allena</p>
 
 <p>The short version: <b style="color:var(--text)">your training data lives on your phone, and the analysis runs there too.</b> This page spells out the rest, plainly.</p>
 
@@ -27,8 +27,10 @@ a{color:var(--text)}
 
 <h2>What leaves your device, and why</h2>
 <ul>
-<li><b style="color:var(--text)">Account & race scores (optional).</b> If you sign in to race friends, a small score card syncs to our database: your chosen first name, weekly witnessed-point totals, session counts, a points tier, and an activation flag. The database schema has no columns for training content — sets, weights, exercises, pain scores and health readings cannot be stored there by construction. Friends and group members can see your score card; nobody else can.</li>
-<li><b style="color:var(--text)">AI features (optional).</b> If you use the coach chat, the deep read, or photo reading (programs, body-scan sheets, blood results), the relevant text or image is sent to the AI provider (Anthropic) to generate the response, then used for nothing else. These features are off until you use them.</li>
+<li><b style="color:var(--text)">Account &amp; race scores (optional).</b> If you sign in to race friends, a small score card syncs to our database: your chosen first name, weekly witnessed-point totals, session counts, a points tier, and an activation flag. The database has no columns for training content — your sets, weights, exercise names and check-in scores cannot be stored there by construction. Friends and group members can see your score card; nobody else can.</li>
+<li><b style="color:var(--text)">Pods (optional).</b> If you join a pod — three people at a similar stage, sharing one weekly number — two more fields ride that same score card: a stage bracket (roughly how far into rehab you are, or how often you have been training) and a yes/no flag for whether this is an exempt week for you. Those two are health-related, they are the only health-related fields that ever leave your phone, and the screen you opt in on says so before you join. Your actual pain, swelling and check-in numbers never travel — only the yes or no. Leaving a pod is one tap and stops sending them.</li>
+<li><b style="color:var(--text)">AI features (optional).</b> If you use the coach chat, the deep read, or photo reading (programs, body-scan sheets, blood results), the relevant text or image is sent to the AI provider (Anthropic) to generate the response, then used for nothing else — it is not used to train models. That context does include your exercise names, weights and recent training, because the answer is worthless without them. We also keep a per-day count of how many AI requests your account has made, so the shared quota is fair; that is a number, never your questions. These features are off until you use them.</li>
+<li><b style="color:var(--text)">Strava (optional).</b> If you connect Strava, the access token for your Strava account is stored so imports work. Disconnecting removes it.</li>
 <li><b style="color:var(--text)">Nothing else.</b> No analytics SDKs, no advertising identifiers, no location, no contacts, no third-party trackers.</li>
 </ul>
 
